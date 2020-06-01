@@ -19,7 +19,7 @@ RUN yum install -y tcl-devel qt3-devel itcl-devel tcl tk ksh libstdc++ qt3 \
     itcl iwidgets blt tcllib bwidget boost-devel
 
 # Install python dev
-RUN yum install -y https://centos7.iuscommunity.org/ius-release.rpm && \
+RUN yum install -y https://repo.ius.io/ius-release-el7.rpm \
     yum update -y && \
     yum install -y python36u python36u-libs python36u-devel python36u-pip
 
